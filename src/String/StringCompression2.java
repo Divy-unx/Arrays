@@ -6,6 +6,7 @@ public class StringCompression2 {
     public static int compress(char[] chars) {
         StringBuilder s = new StringBuilder();
         s.append(chars[0]);
+
         int count = 1;
 
         for(int i = 1 ; i < chars.length; i++){
