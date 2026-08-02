@@ -1,0 +1,10 @@
+package TwoPointersAndSlidingWindow;
+
+
+import java.util.HashMap;
+
+public class LongestRepeatingCharacterReplacement {
+    public static int CharacterRep(String s,  int k){
+        HashMap<Character, >
+    }
+}
