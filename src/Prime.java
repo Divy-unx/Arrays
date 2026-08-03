@@ -6,7 +6,7 @@ public class Prime {
                 return 0;
             }
             int counter = 0;
-            for(int i = 2; i < n; i++){
+            for(int i = 2; i <= n; i++){
                 int count = 0;
                 for(int div = 2; div * div <= i; div++){
                     if(i % div == 0){
