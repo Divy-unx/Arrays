@@ -19,7 +19,8 @@ public class ToLowerCase {
     static void main() {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
-        System.out.println(toLowerCase(string));
+        System.out.println(toLowerCase(string
+        ));
     }
 }
 
